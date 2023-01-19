@@ -1,14 +1,14 @@
 # A.H.M.A
- A.H.M.A's Website
+ <em>A.H.M.A's Website
 
 
-HTML:
-  One file for each pages <br>
-  All links through the navbar links in (ul> li> a>)<br>
-  index.html is the homepage
+HTML:<br>
+  -->One file for each pages <br>
+  -->All links through the navbar links in (ul> li> a>)<br>
+  -->index.html is the homepage<br>
 
-CSS:
-  One stylesheet for all pages
+CSS:<br>
+ --> One stylesheet for all pages<br>
 
-Javascript:
+Javascript:<br>
   --> Might not be used
