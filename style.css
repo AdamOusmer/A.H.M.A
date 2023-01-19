@@ -10,7 +10,7 @@
 body {
     font-family: "New York", serif;
     background: linear-gradient(rgba(120, 156, 215, 0.75), rgba(0, 20, 39, 1) 30%, rgba(0, 20, 39, 1) 70%, rgba(120, 156, 215, 0.75));
-    padding-bottom: 50px;
+    padding-bottom: 65vh;
 }
 
 header {
@@ -20,7 +20,7 @@ header {
 .facebookLink{
     position: fixed;
     padding: 5px;
-    left:93vw;
+    left:95vw;
     top:40vh;
     width: 40px;
     aspect-ratio: 1/1;
@@ -187,17 +187,18 @@ div.welcomeStrip {
 div.welcomeStrip.textWelcome {
     display: flex;
     justify-content: space-between;
+    gap: 30px
 }
 
 img.welcomeStrip {
     width: 250px;
     height: auto;
-    margin-left: 40px;
+    margin-left: 13vw;
 }
 
 p.welcomeStrip{
     font-size: 25px;
-    margin: 10vh -20px -50px -30px ;
+    margin: 10vh -20px -50px -40px ;
 }
 
 /* News Div*/
@@ -234,24 +235,20 @@ a.news{
 
 div.news.img{
     display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: space-evenly;
+    margin-left: 5%;
     margin-top: 20px;
 }
 
 .newsImg {
-    float: left;
-    width: 35%;
-    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+    padding: 10px;
 }
 
 div.news.img.concordiaGirl{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    margin-bottom: 150pxß;
+    margin: 20px auto 150px auto;
     width: 55%;
 }
 
@@ -264,6 +261,9 @@ h3.news.news2{
 }
 
 
+/* documentation.html style */
 
-
-
+.stripLinks{
+    margin-top: -10px;
+    padding-top: 100px;
+}
