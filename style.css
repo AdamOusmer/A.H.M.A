@@ -93,9 +93,10 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    justify-items: flex-start;
+    justify-items: flex-end;
     border-bottom: 2px solid rgba(120, 156, 215, 1);
     width: 100%;
+
 }
 
 .navLinks {
@@ -107,6 +108,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap:5px;
 }
 
 .navLinkEffect {
@@ -161,8 +163,9 @@ nav {
 /* Main Div Style */
 
 .main {
+
     position: relative;
-    padding-top: 15vh;
+    top: 15vh;
     z-index: 0;
 }
 
@@ -230,34 +233,24 @@ a.news{
 }
 
 div.news.img{
-    display: inline-block;
-    font-size: 30px;
-    align-items: center;
-    justify-content: space-around;
+    display: flex;
+    padding-top: 30px;
+    gap: 30px;
     justify-items: center;
-    text-align: center;
-    margin: 50px auto;
+    justify-content: space-evenly;
 }
 
 .newsImg {
-    position: relative;
     width: 500px;
     aspect-ratio: 4/3;
     height: auto;
-    align-items: center;
-    justify-content: space-between;
-    padding: 15px 15px 0 15px;
     z-index: 0;
-}
-
-
-img.newsImg.m11{
-    margin: 0 130px 0 130px;
+    gap: 30px
 }
 
 div.news.img.concordiaGirl{
-    display: flex;
-    left: 50%;
+    left:50%;
+    margin-top: 20px;
 }
 
 .newsImg.concordiaGirl{
@@ -269,10 +262,32 @@ h3.news.news2{
     padding-top: 40px;
 }
 
-@media screen and (max-width: 700px){
-    .newsImg{
-        width: 200px;
+@media screen and (max-width: 1100px){
+    div.news.img{
+        flex-direction: column;
+        margin-left: 20%;
+    }
+    div.news.img.concordiaGirl{
+        margin-left: 10vw;
     }
 }
+
+@media screen and (max-width: 700px){
+    .newsImg{
+        width: 400px;
+    }
+
+    div.news.img{
+        flex-direction: column;
+        margin-left: 20%;
+    }
+
+    div.news.img.concordiaGirl{
+        margin-left: -5%;
+    }
+
+}
+
+
 
 
