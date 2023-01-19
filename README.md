@@ -3,8 +3,8 @@
 
 
 HTML:
-  One file for each pages
-  All links through the navbar links in (ul> li> a>)
+  One file for each pages <br>
+  All links through the navbar links in (ul> li> a>)<br>
   index.html is the homepage
 
 CSS:
