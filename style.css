@@ -224,6 +224,11 @@ p.news {
     text-align: center;
 }
 
+a.news{
+    font-size: 15px;
+    text-decoration-line: underline;
+}
+
 div.news.img{
     display: inline-block;
     font-size: 30px;
@@ -257,7 +262,7 @@ div.news.img.concordiaGirl{
 
 .newsImg.concordiaGirl{
     width: 600px;
-    margin-top: -75px;
+    margin-top: -55px;
 }
 
 h3.news.news2{
