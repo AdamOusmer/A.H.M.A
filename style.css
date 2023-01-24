@@ -219,11 +219,12 @@ h3.news {
 div.news {
     padding: 0 0 5px 0;
     font-size: 30px;
+    text-align:center;
 }
 
 
 p.news {
-    font-size: 20px;
+    font-size: 18px;
     margin: 10px 100px 0 100px;
     text-align: center;
 }
@@ -235,26 +236,19 @@ a.news{
 
 div.news.img{
     display: inline-block;
+    align-content: center;
+    justify-content: center;
     margin-left: 5%;
     margin-top: 20px;
 }
 
-.newsImg {
+img.news {
     margin-left: auto;
     margin-right: auto;
     width: 45%;
     padding: 10px;
 }
 
-div.news.img.concordiaGirl{
-    display: block;
-    margin: 20px auto 150px auto;
-    width: 55%;
-}
-
-.newsImg.concordiaGirl{
-    width: 100%;
-}
 
 h3.news.news2{
     padding-top: 40px;
